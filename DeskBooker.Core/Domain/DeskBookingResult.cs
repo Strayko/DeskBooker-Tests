@@ -2,11 +2,8 @@
 
 namespace DeskBooker.Core.Domain
 {
-    public class DeskBookingResult
+    public class DeskBookingResult : DeskBookingBase
     {
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public string Email { get; set; }
-        public DateTime Date { get; set; }
+        
     }
 }
