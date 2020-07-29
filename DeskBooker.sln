@@ -7,11 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeskBooker.Core.Tests", "De
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeskBooker.Core", "DeskBooker.Core\DeskBooker.Core.csproj", "{CC5C0B06-4ED2-4FD9-A327-BAD978136F99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeskBooker.DataAccess.Tests", "DeskBooker.DataAccess.Tests\DeskBooker.DataAccess.Tests.csproj", "{E75948D8-E32C-42F4-A751-2C8C219F0F10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeskBooker.DataAccess.Tests", "DeskBooker.DataAccess.Tests\DeskBooker.DataAccess.Tests.csproj", "{E75948D8-E32C-42F4-A751-2C8C219F0F10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeskBooker.Web", "DeskBooker.Web\DeskBooker.Web.csproj", "{E1B053FD-B0CD-47E5-BBB5-463610B31FA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeskBooker.Web", "DeskBooker.Web\DeskBooker.Web.csproj", "{E1B053FD-B0CD-47E5-BBB5-463610B31FA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeskBooker.DataAccess", "DeskBooker.DataAccess\DeskBooker.DataAccess.csproj", "{0FA0C7C2-81F5-4412-8513-5015F05DD76F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeskBooker.DataAccess", "DeskBooker.DataAccess\DeskBooker.DataAccess.csproj", "{0FA0C7C2-81F5-4412-8513-5015F05DD76F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeskBooker.Web.Tests", "DeskBooker.Web.Tests\DeskBooker.Web.Tests.csproj", "{C0C5D93F-1F19-4CB0-91D8-60B728C2E55E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{0FA0C7C2-81F5-4412-8513-5015F05DD76F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FA0C7C2-81F5-4412-8513-5015F05DD76F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FA0C7C2-81F5-4412-8513-5015F05DD76F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0C5D93F-1F19-4CB0-91D8-60B728C2E55E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0C5D93F-1F19-4CB0-91D8-60B728C2E55E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0C5D93F-1F19-4CB0-91D8-60B728C2E55E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0C5D93F-1F19-4CB0-91D8-60B728C2E55E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
